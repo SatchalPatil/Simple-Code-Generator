@@ -28,3 +28,20 @@ This project showcases a **Streamlit-based application** that generates Python c
    ```bash
    git clone https://github.com/SatchalPatil/Simple-Code-Generator.git
    cd Simple-Code-Generator
+
+   pip install -r requirements.txt
+   
+   streamlit run app.py
+## Example Usage
+![Screenshot 2025-01-12 121221](https://github.com/user-attachments/assets/b6ec8e23-1099-4e92-ba5f-c2ba0639a130)
+
+![Screenshot 2025-01-12 121022](https://github.com/user-attachments/assets/1f62a020-ed48-4893-91ed-1b717debaf40)
+
+## Model Training
+- The T5 model was fine-tuned on a dataset of Python coding tasks and queries.
+- Fine-tuning was performed using the Hugging Face library and PyTorch.
+
+## Contributing
+- Contributions are welcome! Feel free to fork the repository, submit issues, or create pull requests.
+
+
